@@ -54,6 +54,7 @@ public class Practice : MonoBehaviour
     }
     int sum(int num1,int num2)
     {
-        return num1 + num2;
+        return num1 + num2;  //処理が終了する
+        print("TECH::CAMP");  //実行されない
     }
 }
