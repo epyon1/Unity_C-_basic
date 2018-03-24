@@ -16,6 +16,9 @@ public class Practice : MonoBehaviour
 
         int num = square(5) + square(10);
         print(num);
+
+        int s = sum(5, 10);  //関数sumの呼び出し
+        print(s);
 	}
 	
 	// Update is called once per frame
@@ -48,5 +51,9 @@ public class Practice : MonoBehaviour
     {
         int result = x * x;
         return result;
+    }
+    int sum(int num1,int num2)
+    {
+        return num1 + num2;
     }
 }
