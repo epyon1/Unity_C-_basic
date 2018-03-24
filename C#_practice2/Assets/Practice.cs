@@ -10,13 +10,12 @@ public class Practice : MonoBehaviour
     
 	// Use this for initialization
 	void Start () {
-        int num = 0;
-        while (num <= 10)
+        int total = 0;
+        for (int i = 1; i <= 10; i++)
         {
-            print (num);
-            num += 1 ;
+            total+=i;
         }
-
+        text.text = "合計：" + total;
 		
 	}
 	
