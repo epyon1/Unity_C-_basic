@@ -10,13 +10,7 @@ public class Practice : MonoBehaviour
     
 	// Use this for initialization
 	void Start () {
-        int total = 0;
-        for (int i = 1; i <= 10; i++)
-        {
-            total+=i;
-        }
-        text.text = "合計：" + total;
-		
+        hello();  //関数の呼び出し
 	}
 	
 	// Update is called once per frame
@@ -24,4 +18,8 @@ public class Practice : MonoBehaviour
     {
 		
 	}
+    void hello()
+    {
+        print("hello world");
+    }
 }
