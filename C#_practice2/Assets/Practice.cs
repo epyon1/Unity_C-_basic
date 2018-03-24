@@ -13,6 +13,9 @@ public class Practice : MonoBehaviour
         string name = "アラカワ";  //変数nameの宣言と代入
         hello(name);  //関数helloを呼び出す．引数はname
         greet(17);  //greet関数の呼び出し
+
+        int num = square(5) + square(10);
+        print(num);
 	}
 	
 	// Update is called once per frame
@@ -40,5 +43,10 @@ public class Practice : MonoBehaviour
             print("こんばんは");
         }
 
+    }
+    int square(int x)
+    {
+        int result = x * x;
+        return result;
     }
 }
