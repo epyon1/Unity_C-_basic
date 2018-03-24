@@ -8,11 +8,14 @@ public class Practice : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        int num = -1;
+        int num = 0;
         if (num > 0)
         {
             text.text = "値は正です";
-        }else
+        }else if(num==0){
+            text.text = "値は0です";
+        }
+        else
         {
             text.text = "値は負です";
         }
