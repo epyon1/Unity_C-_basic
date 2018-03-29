@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 507827710}
   - component: {fileID: 507827709}
   - component: {fileID: 507827711}
+  - component: {fileID: 507827712}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -225,8 +226,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507827704}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d728a939aabaeb48aa330f6fe98af48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &507827712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507827704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095d166142a43434480a24f7f06d2608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 21
